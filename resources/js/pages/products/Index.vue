@@ -18,7 +18,7 @@ import {
 
 const breadcrumbs: BreadcrumbItem[] = [
     {
-        title: 'products',
+        title: 'Liste des produits',
         href: '/products',
     },
 ];
@@ -56,7 +56,7 @@ const handleDelete = (id: number) => {
 </script>
 
 <template>
-    <Head title="produits" />
+    <Head title="Liste des produits" />
 
     <AppLayout :breadcrumbs="breadcrumbs">
         <div
